@@ -1,0 +1,9 @@
+.fix-navbar {
+    height: 78px;
+}
+
+.home {
+    @extend %bg-centered;
+    background-image: url(../image/galeria/sala-02.jpg);
+    color: white;
+}

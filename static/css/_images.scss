@@ -1,0 +1,10 @@
+.adaptive-image-cont {
+    min-width: 100%;
+    @extend %bg-centered;
+    padding-bottom: 56.25%;
+}
+
+.adaptive-image-cont-4-3 {
+    @extend .adaptive-image-cont;
+    padding-bottom: 75%;
+}

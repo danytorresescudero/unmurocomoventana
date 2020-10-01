@@ -1,0 +1,235 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+blockquote,
+q {
+  quotes: "" "";
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+}
+
+.fa {
+  line-height: 0;
+}
+
+@font-face {
+  font-family: 'helvetica';
+  src: url("fonts/helvetica.eot");
+  src: url("fonts/helvetica.eot") format("embedded-opentype"), url("fonts/helvetica.woff2") format("woff2"), url("fonts/helvetica.woff") format("woff"), url("fonts/helvetica.ttf") format("truetype"), url("fonts/helvetica.svg#helvetica") format("svg");
+}
+
+@font-face {
+  font-family: 'helvetica-bold';
+  src: url("fonts/helveticaBold.eot");
+  src: url("fonts/helveticaBold.eot") format("embedded-opentype"), url("fonts/helveticaBold.woff2") format("woff2"), url("fonts/helveticaBold.woff") format("woff"), url("fonts/helveticaBold.ttf") format("truetype"), url("fonts/helveticaBold.svg#helveticaBold") format("svg");
+}
+
+@font-face {
+  font-family: 'helvetica-light';
+  src: url("fonts/helveticaLight.eot");
+  src: url("fonts/helveticaLight.eot") format("embedded-opentype"), url("fonts/helveticaLight.woff2") format("woff2"), url("fonts/helveticaLight.woff") format("woff"), url("fonts/helveticaLight.ttf") format("truetype"), url("fonts/helveticaLight.svg#helveticaLight") format("svg");
+}
+
+.adaptive-image-cont, .adaptive-image-cont-4-3, .home {
+  background-color: #F5F5F5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.flex-even {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.fit-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.text-main {
+  color: #EFA139;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+body {
+  font-family: "helvetica", sans-serif;
+  color: #000000;
+  font-size: 0.875rem;
+}
+
+h1 {
+  font-size: 3.625rem !important;
+}
+
+h2 {
+  font-size: 2.25rem !important;
+}
+
+h3 {
+  font-size: 1.625rem !important;
+}
+
+h4 {
+  font-size: 1.125rem !important;
+  line-height: 2.125rem;
+}
+
+h5 {
+  font-size: 1rem !important;
+}
+
+h6 {
+  font-size: 0.875rem !important;
+}
+
+.font-bold {
+  font-family: "helvetica-bold", sans-serif;
+}
+
+.font-light {
+  font-family: "helvetica-light", sans-serif;
+}
+
+.text-decoration {
+  text-decoration: underline;
+}
+
+.adaptive-image-cont, .adaptive-image-cont-4-3 {
+  min-width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.adaptive-image-cont-4-3 {
+  padding-bottom: 75%;
+}
+
+.fix-navbar {
+  height: 78px;
+}
+
+.home {
+  background-image: url(../image/galeria/sala-02.jpg);
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

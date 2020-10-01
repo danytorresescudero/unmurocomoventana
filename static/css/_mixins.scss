@@ -1,0 +1,14 @@
+@mixin deg-vertical($color-top, $opacity-top, $color-button, $opacity-bottom) {
+	// Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff1b58+1,ff7a01+100
+	background: $color-button;
+	background: -moz-linear-gradient(top, rgba($color-top, $opacity-top) 1%, rgba($color-button, $opacity-bottom) 100%);
+	background: -webkit-linear-gradient(top, rgba($color-top, $opacity-top) 1%, rgba($color-button, $opacity-bottom) 100%);
+	background: linear-gradient(to bottom, rgba($color-top, $opacity-top) 1%, rgba($color-button, $opacity-bottom) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-top', endColorstr='$color-bottom', GradientType=0);
+}
+@mixin btn-background($btn-background) {
+    background-color: $btn-background;
+    &:hover {
+        background-color: lighten($btn-background,10%);
+    }
+}

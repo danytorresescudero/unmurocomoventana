@@ -1,0 +1,31 @@
+// Colors
+$color-primary:#EFA139;
+$color-black:#000000;
+$color-grey:#F5F5F5;
+// Typography
+@font-face {
+    font-family: 'helvetica';
+    src: url('fonts/helvetica.eot');
+    src: url('fonts/helvetica.eot') format('embedded-opentype'), url('fonts/helvetica.woff2') format('woff2'), url('fonts/helvetica.woff') format('woff'), url('fonts/helvetica.ttf') format('truetype'), url('fonts/helvetica.svg#helvetica') format('svg');
+}
+
+@font-face {
+    font-family: 'helvetica-bold';
+    src: url('fonts/helveticaBold.eot');
+    src: url('fonts/helveticaBold.eot') format('embedded-opentype'), url('fonts/helveticaBold.woff2') format('woff2'), url('fonts/helveticaBold.woff') format('woff'), url('fonts/helveticaBold.ttf') format('truetype'), url('fonts/helveticaBold.svg#helveticaBold') format('svg');
+}
+
+@font-face {
+    font-family: 'helvetica-light';
+    src: url('fonts/helveticaLight.eot');
+    src: url('fonts/helveticaLight.eot') format('embedded-opentype'), url('fonts/helveticaLight.woff2') format('woff2'), url('fonts/helveticaLight.woff') format('woff'), url('fonts/helveticaLight.ttf') format('truetype'), url('fonts/helveticaLight.svg#helveticaLight') format('svg');
+}
+
+$font-primary: 'helvetica',
+sans-serif;
+$font-bold: 'helvetica-bold',
+sans-serif;
+$font-light: 'helvetica-light',
+sans-serif;
+// Radius
+$radius: .5rem;

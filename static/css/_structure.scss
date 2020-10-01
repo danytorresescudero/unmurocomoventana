@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-even {
+    flex: 1;
+}
+
+.fit-content {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
